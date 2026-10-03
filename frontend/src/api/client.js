@@ -1,4 +1,5 @@
-const API_BASE = '/api';
+const configuredApiUrl = (import.meta.env.VITE_API_URL || '').replace(/\/$/, '');
+const API_BASE = `${configuredApiUrl}/api`;
 
 export function getAuthToken() {
   return localStorage.getItem('threatlens_token') || null;

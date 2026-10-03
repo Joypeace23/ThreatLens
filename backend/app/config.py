@@ -29,6 +29,7 @@ class Settings(BaseSettings):
     ENABLE_LIVE_GEO_FALLBACK: bool = True
     GEO_API_TIMEOUT: float = 3.0
     GEMINI_API_KEY: Optional[str] = None
+    CORS_ORIGINS: str = "*"
 
     MODEL_PATH: str = str(Path(__file__).resolve().parent / "data" / "phishing_email_pipeline.pkl")
     GEO_CACHE_PATH: str = str(Path(__file__).resolve().parent / "data" / "geo_cache.json")
