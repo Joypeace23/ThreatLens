@@ -312,7 +312,7 @@ export default function App() {
 
       {/* Footer */}
       <footer className="border-t border-slate-800/80 bg-slate-950 py-4 text-center text-xs text-slate-500 font-mono">
-        ThreatLens Platform • Smart India Hackathon 2026 • AICTE Cyber Security Cell (PS ID: 26106)
+        ThreatLens Platform • WhyCode Hackathon 2026 • IIT Guwahati Cybersecurity & AI Track
       </footer>
     </div>
   );
